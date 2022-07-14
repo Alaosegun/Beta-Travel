@@ -1,0 +1,320 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(235, 233, 233);
+}
+header{
+    background-image: url(./header.jpg) ;
+    padding: 200px;
+    /* color: rgb(42, 42, 42); */
+    /* color: #1E293B; */
+}
+
+ header p{
+    /* padding-left: 30px; */
+    /* font-weight: bolder; */
+    /* padding-bottom: 5px; */
+    color: black;
+}
+h1{
+    color: black;
+   font-size: 45px;
+}
+.navgetstarted, .navgetstarted:hover{
+    background: rgb(184, 184, 184) ;
+    transition: .5s;
+    border-radius: 8px;
+    cursor: pointer;
+}
+header p{
+    width: 500px;
+}
+.logo{
+    font-size: 30px;
+    padding-right: 649px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li{
+    display:inline;
+    padding: 25px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    float: right;
+    
+}
+
+.div1{
+    display: flex;
+    padding: 10px 200px;
+}
+.h2p{
+    padding-left: 100px;
+}
+
+.div1 img{
+    padding-left: 140px;
+    border-radius: 20px;
+}
+.div2{
+    display: flex;
+}
+.div2 img{
+    padding-left: 310px;
+    border-radius: 20px;
+}
+.div2 h2, .div2 p{
+    padding-left: 50px;
+}
+h3{
+    padding-left: 180px;
+    font-size: 30px;
+}
+.h3p{
+    padding-left: 180px;
+}
+.images{
+    padding: 10px 180px;
+    
+}
+.flex{
+    display: flex;
+    gap: 8px;
+}
+.one, .two{
+    background-color: white;
+    border: 4px solid white;
+    width: 248px;
+    height: 125px;
+}
+.say{
+    padding: 10px 180px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+        .main {
+            width: 100%;
+            max-width: 570px;
+            padding: 1rem 2rem;
+            margin: auto;
+            background-color: rgb(9, 9, 9);
+            border-radius: 15px;
+            
+        }
+
+        .main h2 {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+        }
+
+        .main p {
+            margin-top: 0.75rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .contacts {
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+           
+
+        }
+
+        @media screen and (min-width: 640px) {
+            .contacts {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .contacts {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
+
+        .contacts-icons {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+
+        .contacts-info {
+            text-decoration: none;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            /* color: rgb(51 65 85); */
+            transition: all 0.2s ease-in-out;
+            border-radius: 0.375rem;
+            color: #fff;
+
+        }
+
+        .contacts-info:hover {
+            background-color: #fff;
+            color: #1E293B;
+        }
+
+        .contacts-info span {
+            margin-top: 0.5rem;
+        }
+
+        .footer {
+            margin-top: 1.5rem;
+        }
+
+        .footer .name-email {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+        }
+        label{
+            color: #fff;
+        }
+
+        .footer input,
+        .footer textarea {
+            width: 100%;
+            resize: none;
+            padding: 0.6rem;
+            margin-top: 0.5rem;
+            border-radius: 0.375rem;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: rgb(24, 24, 24);
+            border: none;
+            margin-top: 1rem;
+            font-size: 18px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            color: #fff;
+            border-radius: 0.375rem;
+        }
+
+        .footer button:hover {
+            background-color: #ff725e;
+        }
+
+        .footer .message-container {
+            margin-top: 1rem;
+        }
+
+        @media screen and (max-width: 767px) {
+            .footer .name-email {
+                grid-template-columns: 1fr;
+            }
+        }
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}     
+.footer-flex{
+    display: flex;
+
+}    
+.about, .resources, .product{
+    padding-left: 80px;
+    line-height: 35px;
+} 
+.company{
+    padding-left: 170px;
+    line-height: 35px;
+}  
+footer h2{
+    padding-left: 40px;
+}
+footer div div ul li{
+    list-style: none;
+}
+.imgflex{
+    display: flex;
+    gap: 8px;
+}
+div .imgflex1{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    border-radius: 8px;
+}
+div .imgflex2{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+}
+div .imgflex3{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+}
+div .imgflex4{
+    width: 225px;
+    height: 80px;
+    background-color: white;
+}
+div .imgflex5{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+}
+#img1, #img2, #img3, #img4, #img5{
+    border-radius: 7px;
+}
+.getstarted-head{
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform ;
+}
+button .button-text1{
+    color: white;
+    font-size: 15px;
+}
+.getstarted-head:hover, .getstarted-head:focus, .getstarted-head:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.topflex{
+    padding: 10px 200px;
+    display: flex;
+}
+.topflex1 {
+    background-color: white;
+    width: 900px;
+    height: 70px;
+    position: relative;
+    bottom: 45px;
+    /* border-radius: 12px; */
+}
+.topflex2{
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    bottom: 45px;
+    /* border-radius: 12px; */
+    
+}
