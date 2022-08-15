@@ -6,6 +6,7 @@ body{
 header{
     background-image: url(./header.jpg) ;
     padding: 200px;
+  
     /* color: rgb(42, 42, 42); */
     /* color: #1E293B; */
 }
@@ -15,10 +16,14 @@ header{
     /* font-weight: bolder; */
     /* padding-bottom: 5px; */
     color: black;
+    position: relative;
+    right: 1.8rem;
 }
 h1{
     color: black;
    font-size: 45px;
+   position: relative;
+   right: 2rem;
 }
 
 header p{
@@ -26,9 +31,9 @@ header p{
 }
 .logo{
     font-size: 30px;
-    padding-right: 649px;
+    padding-right: 28rem;
     color: black;
-    font-size: 30px;
+    font-size: 2.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav ul li{
@@ -37,8 +42,26 @@ nav ul li{
     color: rgb(34, 34, 34);
     font-weight: 600;
     float: right;
+    position: relative;
+    right: 5rem;
     
 }
+nav button{
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: none;
+    position: relative;
+    bottom: 0.4rem;
+    border-radius: 7px;
+}
+nav button:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(75, 75, 75);
+}
+
 
 .div1{
     display: flex;
@@ -282,6 +305,8 @@ div .imgflex5{
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform ;
+    position: relative;
+    right: 2rem;
 }
 button .button-text1{
     color: white;
