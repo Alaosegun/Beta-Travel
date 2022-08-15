@@ -1,6 +1,7 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(235, 233, 233);
+    margin: 0;
 }
 header{
     background-image: url(./header.jpg) ;
@@ -19,12 +20,7 @@ h1{
     color: black;
    font-size: 45px;
 }
-.navgetstarted, .navgetstarted:hover{
-    background: rgb(184, 184, 184) ;
-    transition: .5s;
-    border-radius: 8px;
-    cursor: pointer;
-}
+
 header p{
     width: 500px;
 }
@@ -317,4 +313,15 @@ button .button-text1{
     bottom: 45px;
     /* border-radius: 12px; */
     
+}
+
+@media screen and (max-width: 700px){
+    header{
+    
+            background-image: url(./header.jpg) ;
+            /* padding: 200px; */
+            /* color: rgb(42, 42, 42); */
+            /* color: #1E293B; */
+        
+    }
 }
